@@ -189,7 +189,7 @@ body {
 /*------burger-menu-----*/
 label #btn,
 label #cancel {
-    color: var(--menu-backround-color);
+    color: black;
     font-size: 30px;
     float: right;
     line-height: 80px;
