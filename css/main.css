@@ -242,3 +242,7 @@ label #cancel {
         font-size: 10px;
     }
 }
+
+.main-container{
+    min-width: 400px;
+}
