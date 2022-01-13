@@ -10,7 +10,7 @@
     padding-left: 1%;
 
 }
-.message-body-container , .message-body-container-2 {
+.message-body-container  {
     margin: 10px auto;
     width: 70%;
     padding: 10px 10px 20px;
@@ -49,3 +49,7 @@
 }
 
 /*-----logo-animation-----*/
+
+.nickname-container{
+    float: right;
+}

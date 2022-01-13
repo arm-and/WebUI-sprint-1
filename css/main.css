@@ -246,3 +246,7 @@ label #cancel {
 .main-container{
     min-width: 400px;
 }
+#comment-wrapper{
+    overflow:auto;
+    height: 350px;
+}

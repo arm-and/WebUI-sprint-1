@@ -42,45 +42,25 @@
     </div>
     <main class="main">
         <div class="text-container">
-            <div class="message-body-container">
-                <div class="message-container">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid aut commodi
-                        consectetur consequatur doloremque ducimus laboriosam magnam mollitia necessitatibus nisi
-                        nostrum nulla obcaecati pariatur sit soluta, sunt temporibus veritatis.
-                    </p>
-                </div>
-                <div class="message-footer-container">
-                    <div class="date-container">
-                        <p>10.10.2018,23:00</p>
+            <div id="comment-wrapper">
+                <div class="message-body-container">
+                    <div class="message-container">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid aut commodi
+                            consectetur consequatur doloremque ducimus laboriosam magnam mollitia necessitatibus nisi
+                            nostrum nulla obcaecati pariatur sit soluta, sunt temporibus veritatis.
+                        </p>
                     </div>
                     <div class="message-footer-container">
-                        <p>Red-Devil1998</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="message-body-container-2">
-                <div class="message-container">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid aut commodi
-                        consectetur consequatur doloremque ducimus laboriosam magnam mollitia necessitatibus nisi
-                        nostrum nulla obcaecati pariatur sit soluta, sunt temporibus veritatis.
-                    </p>
-                </div>
-                <div class="message-footer-container">
-                    <div class="date-container">
-                        <p>10.10.2018,23:00</p>
-                    </div>
-                    <div class="message-footer-container">
-                        <p>Red-Devil1998</p>
+                        <span class="date-container">10.10.2018,23:00</span>
+                        <span class="nickname-container">Red-Devil1998</span>
                     </div>
                 </div>
             </div>
             <form class="form">
                 <div class="form-container">
                     <textarea id="textarea-comment" placeholder="Enter your comment..." cols="60" rows="10"></textarea>
-                    <input type="button" id="send-comment-button" value="SEND">
+                    <input type="submit" id="send-comment-button" value="SEND">
                 </div>
             </form>
 
@@ -112,5 +92,6 @@
         </div>
     </footer>
 </div>
+<script src="index.js"></script>
 </body>
 </html>
