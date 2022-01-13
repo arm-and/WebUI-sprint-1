@@ -53,3 +53,7 @@
 .nickname-container{
     float: right;
 }
+#comment-wrapper{
+    overflow:auto;
+    height: 350px;
+}
