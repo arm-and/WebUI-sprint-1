@@ -1,6 +1,6 @@
 const sendButton = document.getElementById('send-comment-button');
 
-async function addComment() {
+function addComment() {
 
     event.preventDefault();
 
@@ -26,18 +26,27 @@ async function addComment() {
     span1.innerHTML = `${day}.${month + 1}.${year}, ${hour}:${minute}`;
     p.innerHTML = textArea.value;
 
-
     if (textArea.value.length < 10) {
         alert('Enter at least 10 symbols!');
         return;
     } else
         span2.innerHTML = prompt('Enter your nickname!');
-    commentWrapper.appendChild(div);
-    await div.appendChild(p);
-    await div.appendChild(span1);
-    await div.appendChild(span2);
-    textArea.value = '';
 
-}
+    setTimeout(() => {
+        commentWrapper.appendChild(div);
+        div.appendChild(p);
+        div.appendChild(span1);
+        div.appendChild(span2);
+        div.animate([{
+            opacity:0,
+        },{
+            opacity: 1,
+        }],{
+            duration:300,
+        })
+        textArea.value = '';
+    },300);
+
+};
 
 sendButton.addEventListener('click', addComment);
