@@ -37,15 +37,15 @@ function addComment() {
         div.appendChild(p);
         div.appendChild(span1);
         div.appendChild(span2);
-        div.animate([{
-            opacity:0,
-        },{
-            opacity: 1,
-        }],{
-            duration:300,
-        })
         textArea.value = '';
-    },300);
+        div.animate([{
+            opacity: 0,
+        }, {
+            opacity: 1,
+        }], {
+            duration: 300,
+        });
+    }, 300);
 
 };
 

@@ -138,20 +138,23 @@ body {
     align-items: center;
 }
 
-.instagram-link, .fb-link ,.twitter-link, .copyright-content{
+.instagram-link, .fb-link, .twitter-link, .copyright-content {
     color: var(--main-backround-color);
 }
-.copyright-content{
+
+.copyright-content {
     font-size: 11px;
 }
+
 .footer-content {
     width: 200px;
     display: flex;
     justify-content: space-around;
 }
+
 /*--------footer---------------*/
 /*----MU-animation-----*/
-.MU{
+.MU {
     position: absolute;
     top: 20%;
     left: 50%;
@@ -163,24 +166,26 @@ body {
     -webkit-background-clip: text;
     animation: animate 10s infinite linear;
 }
+
 @keyframes animate {
-    from{
+    from {
         background-position: 0 0;
     }
-    to{
+    to {
         background-position: 100% 100%;
     }
 }
+
 /*----MU-animation-----*/
 
 /*-----logo-animation-----*/
 
-.logo-container:hover img{
+.logo-container:hover img {
     transform: rotate(-30deg) scale(2);
     filter: blur(2px);
 }
 
-.logo-container img{
+.logo-container img {
     transition: .5s;
 }
 
@@ -198,21 +203,25 @@ label #cancel {
     display: none;
 }
 
-#check{
+#check {
     display: none;
 }
+
 /*------burger-menu-----*/
-@media (max-width: 860px){
-    .MU, .logo{
+@media (max-width: 860px) {
+    .MU, .logo {
         display: none;
     }
-.menu-container{
-    background-color: white;
-}
-    label #btn{
+
+    .menu-container {
+        background-color: white;
+    }
+
+    label #btn {
         display: block;
     }
-    ul{
+
+    ul {
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -222,31 +231,38 @@ label #cancel {
 
         text-align: center;
     }
-    .menu{
+
+    .menu {
         display: block;
         margin: 55px 0;
     }
-    nav ul li a{
+
+    nav ul li a {
         font-size: 25px;
     }
-    #check:checked ~ ul{
+
+    #check:checked ~ ul {
         left: -100%;
     }
-    #check:checked ~ label #btn{
+
+    #check:checked ~ label #btn {
         display: none;
     }
-    #check:checked ~ label #cancel{
+
+    #check:checked ~ label #cancel {
         display: block;
     }
-    .text-history{
+
+    .text-history {
         font-size: 10px;
     }
 }
 
-.main-container{
+.main-container {
     min-width: 400px;
 }
-#comment-wrapper{
-    overflow:auto;
+
+#comment-wrapper {
+    overflow: auto;
     height: 350px;
 }

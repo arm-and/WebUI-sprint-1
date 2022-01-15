@@ -10,7 +10,8 @@
     padding-left: 1%;
 
 }
-.message-body-container  {
+
+.message-body-container {
     margin: 10px auto;
     width: 70%;
     padding: 10px 10px 20px;
@@ -18,7 +19,8 @@
     border-radius: 20px;
     border: solid var(--border-solid-comment) 4px;
 }
-.message-footer-container{
+
+.message-footer-container {
     margin-top: 2%;
     display: flex;
     justify-content: space-between;
@@ -26,34 +28,40 @@
 
 /*----text container-----*/
 
-.form-container{
+.form-container {
     margin: 10px auto;
     width: 650px;
     display: flex;
     justify-content: space-between;
     align-items: end;
 }
-#send-comment-button{
+
+#send-comment-button {
     width: 100px;
     height: 30px;
 }
+
 /*-----logo-animation-----*/
 
-.logo-container:hover img{
+.logo-container:hover img {
     transform: rotate(-30deg) scale(2);
     filter: blur(2px);
 }
 
-.logo-container img{
+.logo-container img {
     transition: .5s;
 }
 
 /*-----logo-animation-----*/
+.main-container {
+    min-width: 400px;
+}
 
-.nickname-container{
+.nickname-container {
     float: right;
 }
-#comment-wrapper{
-    overflow:auto;
+
+#comment-wrapper {
+    overflow: auto;
     height: 350px;
 }
